@@ -23,6 +23,7 @@ public class MyTest {
         UsbSell proxy=(UsbSell)Proxy.newProxyInstance(factory.getClass().getClassLoader(),factory.getClass().getInterfaces(),invocationHandler);
         double pirce=proxy.sell(1);
          System.out.println("总价"+pirce);
+         //
     }
 
 }
